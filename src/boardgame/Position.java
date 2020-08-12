@@ -3,6 +3,7 @@ package boardgame;
 public class Position {
 	private int row;
 	private int column;
+	//Posição da peça
 	public Position(int row, int column) {
 		this.row = row;
 		this.column = column;
@@ -19,7 +20,7 @@ public class Position {
 	public void setColumn(int column) {
 		this.column = column;
 	}
-	
+	//sobrescreve o metodo toString 
 	@Override
 	public String toString() {
 		return row + "," + column;
